@@ -52,8 +52,6 @@ new Swiper('.notice-line .swiper-container', {
 });
 
 new Swiper('.promotion .swiper', {
-
-
   autoplay: {
     delay: 5000
   },
@@ -62,11 +60,11 @@ new Swiper('.promotion .swiper', {
   spaceBetween: 10, // 슬라이드 사이 여백
   centeredSlides: true, //1번 슬라이드가 가운데 보이기
   pagination: {
-    el: '.promoiton .swiper-pagination',
+    el: '.swiper-pagination',
     clickable: true
   },
   navigation: {
-    prevEl: '.promotion .swiper-button-prev',
-    nextEl: '.promotion .swiper-button-next'
+    prevEl: '.promotion .swiper-prev',
+    nextEl: '.promotion .swiper-next'
   }
 });
