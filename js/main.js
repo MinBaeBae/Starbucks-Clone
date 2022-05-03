@@ -83,3 +83,4 @@ promotionToggleBtn.addEventListener('click', function () {
     promotionEl.classList.remove('hide');
   }
 });
+
